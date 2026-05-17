@@ -1,0 +1,16 @@
+{
+  "name": "sab-discord-bot",
+  "version": "2.0.0",
+  "description": "Steal a Brainrot exist count Discord bot with auto-scrape",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
